@@ -1,0 +1,31 @@
+
+<div id="tagline">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="tagline-box">
+          <div class="tagline-icon">
+            <img src="partials/tagline-1.svg" alt="Our Capabilities">
+          </div>
+          <h3>Our <br> Capabilities</h3>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="tagline-box">
+          <div class="tagline-icon">
+            
+          </div>
+          <h3>Our <br> Technologies</h3>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="tagline-box">
+          <div class="tagline-icon">
+            
+          </div>
+          <h3>Our <br> Value Propositon</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
