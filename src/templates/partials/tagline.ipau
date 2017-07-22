@@ -1,8 +1,8 @@
-  <div id="tagline">
+  <div id="tagline" role="tablist" aria-multiselectable="true">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="tagline-box">
+          <div class="tagline-box" data-toggle="collapse" data-target="#Capabilities" aria-expanded="false" aria-controls="Capabilities">
             <div class="tagline-icon">
               <img src="{{img_dir}}/tagline-1.svg" alt="Our Capabilities">
             </div>
@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="tagline-box">
+          <div class="tagline-box" data-toggle="collapse" data-target="#Technologies" aria-expanded="false" aria-controls="Technologies">
             <div class="tagline-icon">
               <img src="{{img_dir}}/tagline-2.svg" alt="Our Technologies">
             </div>
@@ -18,12 +18,36 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="tagline-box">
+          <div class="tagline-box" data-toggle="collapse" data-target="#Value" aria-expanded="false" aria-controls="Value">
             <div class="tagline-icon">
               <img src="{{img_dir}}/tagline-3.svg" alt="Value Propositon">
             </div>
             <h3>Our <br> Value Propositon</h3>
           </div>
+        </div>
+      </div>
+
+      <!-- data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" -->
+
+    </div>
+  </div>
+  <div id="tagline-description">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 collapse tagline-description-content" id="Capabilities">
+          <p>
+            Xirka are experienced in designing chip with the latest technologies. Our expertise range from system design and modeling to ASIC implementation. We also have strong relationships with leading chip fabrication and IP vendors that allow us to deliver a high quality chips; <i>DSP/PHY System Modeling, SoC System Architecture Design, RTL Coding (VHDL/Verilog/System C), Front End and Back End ASIC Physical Design, FPGA Prototyping, MAC Layer Software Design, Wireless System Testing (RCT, PCT, IOT), Design for Test and System Verifcation.</i>
+          </p>
+        </div>
+        <div class="col-sm-12 collapse tagline-description-content" id="Technologies">
+          <p>
+            We understand that technology behind the product is as important as the company itself. Our main assets is the technology, and we maintain this technology carefully. Here are some of our latest technologies and remember, the only thing more amazing than these technologies are with you do with them; <i>Low Complexity & High Performance SM & Space Time Transmit Diversity MIMO System, Multi Cores and Multi Bus System on Chip Architecture, Advance Channel Coding Architecture : Turbo Coding, Reed Solomon, BCH and LDPC Based, High Mobility OFDM System Synchronizer and Equalizer</i>
+          </p>
+        </div>
+        <div class="col-sm-12 collapse tagline-description-content" id="Value">
+          <p>
+            Throughout product milestones, Xirka have demonstrated the ability to produce cost efective chips without sacrifcing the quality. We have fexibility to adapt customer demand, and we applied efective management approach to ensure we met the delivery time; <i>Customization, Full Service, Afordable Cost, Cost Reduction, Delivery Time, System Solution.</i>
+          </p>
         </div>
       </div>
     </div>
