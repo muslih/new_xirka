@@ -23,6 +23,7 @@
     </header>
   </div>
 
+  {% if test %}
   <div id="intro">
     <div class="container">
       <div class="row">
@@ -44,6 +45,7 @@
       </div>
     </div>
   </div>
+  {% end %}
 
   <div id="tagline">
     <div class="container">
