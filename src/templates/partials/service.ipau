@@ -1,0 +1,35 @@
+  <div id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="service-detail">
+                <h3>Card</h3>
+                <div class="service-image">
+                  <img src="{{img_dir}}service-1.jpg" alt="service 1">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="service-detail">
+                <h3>Reader</h3>
+                <div class="service-image">
+                  <img src="{{img_dir}}service-2.jpg" alt="service 1">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="service-detail">
+                <h3>Smart Card</h3>
+                <div class="service-image">
+                  <img src="{{img_dir}}service-3.jpg" alt="service 1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>

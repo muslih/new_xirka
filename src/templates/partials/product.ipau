@@ -1,0 +1,34 @@
+  <div id="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="product-detail">
+                <h3>Card</h3>
+                <div class="product-image">
+                  <img src="{{img_dir}}product-1.jpg" alt="Product 1">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="product-detail">
+                <h3>Reader</h3>
+                <div class="product-image">
+                  <img src="{{img_dir}}product-2.jpg" alt="Product 1">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="product-detail">
+                <h3>Smart Card</h3>
+                <div class="product-image">
+                  <img src="{{img_dir}}product-3.jpg" alt="Product 1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

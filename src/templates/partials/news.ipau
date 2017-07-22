@@ -1,0 +1,47 @@
+  <div id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="news-title">
+            News
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+
+          <a href="#">
+            <div class="news-thumb">
+              <img src="{{img_dir}}/news-1.jpg" alt="News 1 Title sample">
+            </div>
+            <h3>News One Title Sample</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestias ratione iste fuga quidem quisquam, vitae vero ipsa suscipit autem officia, nesciunt architecto culpa vel cupiditate quos nam. Ratione, fuga.
+            </p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
+            <div class="news-thumb">
+              <img src="{{img_dir}}/news-2.jpg" alt="News 2 Title sample">
+            </div>
+            <h3>News Two Title Sample</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestias ratione iste fuga quidem quisquam, vitae vero ipsa suscipit autem officia, nesciunt architecto culpa vel cupiditate quos nam. Ratione, fuga.
+            </p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
+            <div class="news-thumb">
+              <img src="{{img_dir}}/news-2.jpg" alt="News 2 Title sample">
+            </div>
+            <h3>News Three Title Sample</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestias ratione iste fuga quidem quisquam, vitae vero ipsa suscipit autem officia, nesciunt architecto culpa vel cupiditate quos nam. Ratione, fuga.
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,20 +1,21 @@
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 intro-content">
-        <h3>WELCOME TO XIRKA</h3>
-        <p>
-          Xirka Silicon Technology was established in May, 2008 as a fabless company focusing in WiMAX baseband chipset, we deliver a System-on-Chip (SoC) for Broadband Wireless Access (BWA) to fulfill the needs for conducting businesses, supporting everybody's dynamic lifestyle which very often requires immediate attention and action. To provide assurance, our SoC uses IEEE 802.16d-2004 standard for nomadic WiMAX and IEEE 802.16e-2005 for mobile WiMAX.
-        </p>
-        <p>
-           Continuing commitments as a design company, since 2011 we started to develop SIM card and proceed with the smart card products and derivatives such as access card, ID card, secured card for banking by using a technology called Near Field Communication and RFID.
-        </p>
-        <p>
-          There are many IT equipment that will benefit from our chipset, such as, modem cards, computers, notebooks, mobile gadgets, CPE modems, etc. Of course, we also understand the need of our clients to have a reliability chipset with affordable price, therefore we built our research and design center with those concerns in mind.
-        </p>
-        <p>
-          Xirka technology definitely is an innovative chipset for dynamic life.
-        </p>
+  <div id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 intro-content">
+          <h3>WELCOME TO XIRKA</h3>
+          <p>
+            Xirka Silicon Technology was established in May, 2008 as a fabless company focusing in WiMAX baseband chipset, we deliver a System-on-Chip (SoC) for Broadband Wireless Access (BWA) to fulfill the needs for conducting businesses, supporting everybody's dynamic lifestyle which very often requires immediate attention and action. To provide assurance, our SoC uses IEEE 802.16d-2004 standard for nomadic WiMAX and IEEE 802.16e-2005 for mobile WiMAX.
+          </p>
+          <p>
+             Continuing commitments as a design company, since 2011 we started to develop SIM card and proceed with the smart card products and derivatives such as access card, ID card, secured card for banking by using a technology called Near Field Communication and RFID.
+          </p>
+          <p>
+            There are many IT equipment that will benefit from our chipset, such as, modem cards, computers, notebooks, mobile gadgets, CPE modems, etc. Of course, we also understand the need of our clients to have a reliability chipset with affordable price, therefore we built our research and design center with those concerns in mind.
+          </p>
+          <p>
+            Xirka technology definitely is an innovative chipset for dynamic life.
+          </p>
+        </div>
       </div>
     </div>
   </div>

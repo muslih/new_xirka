@@ -24,6 +24,24 @@
       </div>
     </header>
   </div>
+  {%if title == 'Home' %}
+  
+  {% include 'partials/intro.ipau'%}
+
+  {% include 'partials/tagline.ipau'%}  
+  
+  {% include 'partials/news.ipau'%}
+
+  {% include 'partials/product.ipau'%}
+  
+  {% include 'partials/service.ipau'%}
+
+  {% include 'partials/video.ipau'%}
+
+  {% endif %}
+
+
+  {%if title != 'Home' %}
   <section id="thumb-page">
     {{imgThumb.thumbUrl(imgThumbUrl)}}
   </section>
@@ -34,40 +52,9 @@
       </div>
     </div>
   </section>
+  {% endif %}
 
-  <footer>
-    <div class="container">
-      <div class="col-sm-3">
-        <h3>Head Office</h3>
-        <p>
-          PT Xirka Silicon Technology <br>
-          Gedung CM, Jl. Matraman I No.9 <br>
-          Jakarta, 13150, Indonesia <br>
-          T.(+62)21-819-8700 <br>
-          F.(+62)21-2850-7071 <br>
-          www.xirkachipset.com <br>
-          info@xirkachipset.com
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <h3>R&D Office</h3>
-        <p>
-          PT Xirka Silicon Technology <br>
-          Kompleks Puri Syailendra,<br>
-          Jl. Lemah Neundeut Kav.30 <br>
-          Setrasari, Bandung, 40163 <br>
-          Indonesia <br>
-          T.(+62)22-2014-189 <br>
-          F.(+62)22-2014-253
-        </p>
-      </div>
-      <div class="col-sm-5">
-        <h3>Follow Us</h3>
-
-        Copyrights &copy;  2017 | PT. Xirka Silicon Technology
-      </div>
-    </div>
-  </footer>
+  {% include 'partials/footer.ipau' %}
   
   <script src="js/main.js"></script>
 </body>
