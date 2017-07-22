@@ -9,6 +9,21 @@
 .upcase{
   text-transform:uppercase;
 }
+
+.full-img{
+  img{
+    width:100%;
+  }
+}
+
+.flex-center{
+  height: 60vmin;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 h2{@extend .upcase}
 h3{
   font-size:18px;
@@ -174,6 +189,16 @@ nav{
 
 .service-image{
   @extend .product-image;
+}
+
+#thumb-page{
+  img{
+    width:100%;
+  }
+}
+
+#content{
+  @extend .main-section-padding;
 }
 
 

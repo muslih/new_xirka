@@ -1,0 +1,5 @@
+{% macro thumbUrl(page) %}
+    {%if page != '' %}
+      <img src="{{page}}" alt="{{title}} Image Thumbnail">
+    {% endif %}
+{% endmacro %}

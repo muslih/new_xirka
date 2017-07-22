@@ -61,12 +61,19 @@ gulp.task('js',function(){
   .pipe(gulp.dest(config.publicDir+'/js'));
 })
 
+function swallowError (error) { 
+  // details of the error in the console 
+  console.log(error.toString());
+  this.emit('end'); 
+}
+
 gulp.task('ipau', function(){
   return gulp.src('./src/pages/**/*.+(html|ipau)')
   // render template
   .pipe(nunjucksRender({
     path:['./src/templates']
   }))
+  .on('error', swallowError)
   .pipe(htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest('app'))
 });
