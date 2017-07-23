@@ -3,26 +3,35 @@
       <div class="row">
         <div class="col-md-4">
           <div class="tagline-box" data-toggle="collapse" data-target="#Capabilities" aria-expanded="false" aria-controls="Capabilities">
+            
+            <h3>
             <div class="tagline-icon">
               <img src="{{img_dir}}/tagline-1.svg" alt="Our Capabilities">
             </div>
-            <h3>Our <br> Capabilities</h3>
+            Our Capabilities
+            </h3>
           </div>
         </div>
         <div class="col-md-4">
           <div class="tagline-box" data-toggle="collapse" data-target="#Technologies" aria-expanded="false" aria-controls="Technologies">
-            <div class="tagline-icon">
-              <img src="{{img_dir}}/tagline-2.svg" alt="Our Technologies">
-            </div>
-            <h3>Our <br> Technologies</h3>
+            
+            <h3>
+              <div class="tagline-icon">
+                <img src="{{img_dir}}/tagline-2.svg" alt="Our Technologies">
+              </div>
+              Our Technologies
+            </h3>
           </div>
         </div>
         <div class="col-md-4">
           <div class="tagline-box" data-toggle="collapse" data-target="#Value" aria-expanded="false" aria-controls="Value">
-            <div class="tagline-icon">
-              <img src="{{img_dir}}/tagline-3.svg" alt="Value Propositon">
-            </div>
-            <h3>Our <br> Value Propositon</h3>
+            
+            <h3>
+              <div class="tagline-icon">
+                <img src="{{img_dir}}/tagline-3.svg" alt="Value Propositon">
+              </div>
+              Our Value Propositon
+            </h3>
           </div>
         </div>
       </div>
