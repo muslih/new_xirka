@@ -250,21 +250,27 @@ nav{
 
 
 .product{
-  padding:2.5em 0;
+  padding:3.5em 0;
+  &-text{
+    &-light{
+      color:#e6e6e6;
+      text-shadow:0 0 3px #444;
+    }
+    &-dark{
+      color:#444;
+    }
+  }
+
   &-dark{
-    color:#e6e6e6;
     background-color:#0d0d0d;
   }
   &-light{
-    color:#e6e6e6;
-    text-shadow:0 0 3px #444;
     background-color:#e2e1df;
   }
   &-text{
     &-bottom{
       @media screen and (min-width:770px){
         margin-top:25em;
-        // display:none;
       }
     }
   }
