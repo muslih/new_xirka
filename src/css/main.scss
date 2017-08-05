@@ -16,6 +16,16 @@
   }
 }
 
+
+.text{
+  &-justify{
+    text-align:justify;
+  }
+  &-right{
+    text-align:right;
+  }
+}
+
 .flex-center{
   height: 60vmin;
   overflow: hidden;
@@ -236,6 +246,36 @@ nav{
 
 #content{
   @extend .main-section-padding;
+}
+
+
+.product{
+  padding:2.5em 0;
+  &-dark{
+    color:#e6e6e6;
+    background-color:#0d0d0d;
+  }
+  &-light{
+    color:#e6e6e6;
+    text-shadow:0 0 3px #444;
+    background-color:#e2e1df;
+  }
+  &-text{
+    &-bottom{
+      @media screen and (min-width:770px){
+        margin-top:25em;
+        // display:none;
+      }
+    }
+  }
+
+
+  ul{
+    padding-left:0px;
+  }
+  li{
+    margin-left:15px;
+  }
 }
 
 
