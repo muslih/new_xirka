@@ -5,7 +5,7 @@
 
 {% block content %}
 
-<div class="product product-dark product-text-light" style="background: url('../img/header.jpeg') right center">
+<div class="product product-dark product-text-light" style="background: url('./img/header.jpeg') right center">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -39,7 +39,7 @@
   </div>
 </div>
 
-<div class="product product-light product-text-light" style="background: url('../img/products/veriu-os.jpg') left center">
+<div class="product product-light product-text-light" style="background: url('./img/products/veriu-os.jpg') left center">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-6 product-text-bottom">
@@ -67,7 +67,7 @@
   </div>
 </div>
 
-<div class="product product-dark product-text-light" style="background:#000 url('../img/products/sam-21.png') right center no-repeat">
+<div class="product product-dark product-text-light" style="background:#000 url('./img/products/sam-21.png') right center no-repeat">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -92,7 +92,7 @@
 </div>
 
 
-<div class="product product-light product-text-dark" style="background:#e2e1de url('../img/products/veriu-xvu.png') right center no-repeat">
+<div class="product product-light product-text-dark" style="background:#e2e1de url('./img/products/veriu-xvu.png') right center no-repeat">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -126,7 +126,7 @@
   </div>
 </div>
 
-<div class="product product-dark product-text-light" style="background:#1a1a1a url('../img/products/smart-payment.jpg') left center no-repeat;background-size:50% 100%;">
+<div class="product product-dark product-text-light" style="background:#1a1a1a url('./img/products/smart-payment.jpg') left center no-repeat;background-size:50% 100%;">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-md-offset-7">
@@ -160,7 +160,7 @@
   </div>
 </div>
 
-<div class="product product-text-light" style="background:#000 url('../img/products/smartcard-emulator.jpg') right center no-repeat">
+<div class="product product-text-light" style="background:#000 url('./img/products/smartcard-emulator.jpg') right center no-repeat">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 product-text-bottom">
