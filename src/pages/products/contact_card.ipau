@@ -1,0 +1,33 @@
+<div class="product product-dark" data-bg="dsada">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>sCONTACT CARD (SCard XCT136)</h2>
+        <p class="text-justify">
+          SCard XCT136 is a member of SCard family device from Xirka Silicon Technology which is designed specifically for contact interface card. SCard is CPU based card. It is ideal for cost sensitive market that requires low cost solution. The chip enables machines to connect to cellular networks using GSM Phase 2 standard. The chip has on-chip crypto accelerator that ensures high security while maintaining processor performance. The CPU also cooperates with secured memory management and secured bus in order to increase data security. Internal Power management ensures low power consumptions that increase devices operation times. The flexibility of hardware/software development tools and optimized architecture for speed and power ensure to meet customer requirements.
+
+          <ul>
+            <h3>Features</h3>
+            <li>ISO 7816-3 compliant</li>
+            <li>Supported class A and B</li>
+            <li>ETU Timer/Counter</li>
+          </ul>
+
+          <ul>
+            <h3>Processor</h3>
+            <li>32 bit microprocessor</li>
+            <li>Optimized for speed and power</li>
+            <li>Internal general lock</li>
+          </ul>
+
+          <ul>
+            <h3>Memory</h3>
+            <li>Flash : 136 Kbyte</li>
+            <li>RAM : 4 Kbyte</li>
+          </ul>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
