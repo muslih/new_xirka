@@ -1,1 +1,7 @@
-console.log('@muslihzarth');
+$(document).ready(function(){
+  $('#slide').unslider(
+  {
+    arrows: false,
+  }
+  );
+})

@@ -26,6 +26,8 @@
   </div>
   {%if title == 'Home' %}
   
+  {% include 'partials/slide.ipau'%}
+
   {% include 'partials/intro.ipau'%}
 
   {% include 'partials/tagline.ipau'%}  
