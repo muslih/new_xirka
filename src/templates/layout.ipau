@@ -31,8 +31,6 @@
   {% include 'partials/intro.ipau'%}
 
   {% include 'partials/tagline.ipau'%}  
-  
-  {% include 'partials/news.ipau'%}
 
   {% include 'partials/product.ipau'%}
   
