@@ -6,7 +6,7 @@
 
 {% block content %}
 
-<div class="col-lg-5">
+<div class="col-lg-5 text-justify">
   <h3>
     Xirka Silicon Technology creates innovative integrated circuit (IC) to provide mass product for a dynamic lifestyle. {{page}}
   </h3> 
