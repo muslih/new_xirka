@@ -3,8 +3,5 @@
     <li class="{%if title=='Home' %}active{% endif %}"><a href="./">Home</a></li>
     <li class="{%if title=='About' %}active{% endif %}"><a href="./about.html">About Us</a></li>
     <li class="{%if title=='Product' %}active{% endif %}"><a href="./product.html">Product</a></li>
-    <li class="{%if title=='Solutions' %}active{% endif %}"><a href="./solution.html">Solutions</a></li>
-    <li class="{%if title=='News' %}active{% endif %}"><a href="#">News</a></li>
-    <li class="{%if title=='Sitemap' %}active{% endif %}"><a href="#">Sitemap</a></li>
   </ul>
 </nav>

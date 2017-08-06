@@ -1,7 +1,7 @@
   <div id="intro">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 intro-content">
+        <div class="col-md-6 intro-content text-justify">
           <h3>WELCOME TO XIRKA</h3>
           <p>
             Xirka Silicon Technology was established in May, 2008 as a fabless company focusing in WiMAX baseband chipset, we deliver a System-on-Chip (SoC) for Broadband Wireless Access (BWA) to fulfill the needs for conducting businesses, supporting everybody's dynamic lifestyle which very often requires immediate attention and action. To provide assurance, our SoC uses IEEE 802.16d-2004 standard for nomadic WiMAX and IEEE 802.16e-2005 for mobile WiMAX.
