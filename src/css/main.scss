@@ -275,6 +275,19 @@ nav{
     }
   }
 
+  &-images{
+    overflow:hidden;
+    .col-sm-4{
+      @media screen and (max-width:500px){
+        display:none;
+      }
+      padding:0;
+      img{
+        width:100%;
+      }
+    }
+  }
+
 
   ul{
     padding-left:0px;

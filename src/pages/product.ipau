@@ -5,7 +5,7 @@
 
 {% block content %}
 
-<div class="product product-dark product-text-light" style="background: url('./img/header.jpeg') right center">
+<div class="product product-dark product-text-light" style="background: url('./img/products/contact-card.jpeg') right center no-repeat;background-size: cover">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -57,8 +57,6 @@
             <li>FIPS 140-2 compliant random number generator</li>
             <li>Support payment application</li>
             <li>7 bytes unique indentrier (UID) fot each device</li>
-            <li></li>
-            <li>ETU Timer/Counter</li>
           </ul>
         </p>
       </div>
@@ -83,6 +81,9 @@
             <li>DES and 3DES capability</li>
             <li>Mutual authentication with session key based on random number</li>
             <li>FIPS 140-2 compliant random number generator</li>
+            <li>Support paymet application</li>
+            <li>7 bytes unique identier (UID) for each device</li>
+            <li>Xirka Native and ISO 7816-4 compatibility commands</li>
           </ul>
         </p>
       </div>
@@ -91,33 +92,111 @@
   </div>
 </div>
 
-
-<div class="product product-light product-text-dark" style="background:#e2e1de url('./img/products/veriu-xvu.png') right center no-repeat">
+<div class="product product-light product-text-dark" style="background:#e2e1de url('./img/products/veriu-xvu.png') right center no-repeat;background-size: contain">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
         <h2>VeriU XVU 136S256L</h2>
         <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus amet, architecto commodi dolore nobis aut quibusdam optio quod, fuga unde, esse, excepturi quo maiores laudantium dolorem atque libero deleniti! Sint!
+          VeriU XVU 136S/256L is a Contactless or dual interface Smartcard wich designed specifically for high security samrt card. The VeriU family is a CPU based card using 8/16 Bit microprocessor with optimized architecture for power and speed. For dual interface VeriU supports contact interface based on ISO/IEC 7816 class A/B and contactless interface based on 14443 type standard protocol.
 
           <ul>
             <h3>Interface</h3>
             <li>Support contact interface based ISO 7816 Class A and Class B.</li>
             <li>Support contactless interface based on ISO/IEC 14443 Type A.</li>
             <li>NFC Forum Type 4 Compliant Tag IC.</li>
-            <li>Features and Security.</li>
           </ul>
           <ul>
             <h3>Features And Security</h3>
-              <li>True Random Generator.</li>
-              <li>Data integrity using CRC-16 based on ISO 14443 type A standard.</li>
-              <li>DES encryption based on FIPS 46-3 specification.</li>
-              <li>3DES implementation through software implementation (library provided).</li>
-              <li>Symmetric encryption based on AES-128 crypto algorithm.</li>
-              <li>Secured bus and memory management.</li>
-              <li>On-chip voltage regulator.</li>
-              <li>Contact/contactless transmission of data and power supply through power switching module.</li>
-              <li>Compatible with ISO/IEC 7816 command set.</li>
+            <li>
+              High performance Public Key Infrastructure (PKI)
+            </li>
+            <li>
+              True Random Generator
+            </li>
+            <li>
+              Data integrity using CRC-16 (ISO 14443 type A)
+            </li>
+            <li>
+              Symmetrical encryption: DES, 3DES, AES.
+            </li>
+            <li>
+              Secured bus and memory management
+            </li>
+            <li>
+              On-Chip voltage regulator
+            </li>
+          </ul>
+          
+          <ul>
+            <h3>PROCESSOR</h3>
+            <li>
+              8/32 Bit Processor
+            </li>
+            <li>
+              Internal generated clock to allow the device to be independent of the external clock
+            </li>
+            <li>
+              DMA module to improve the performance of data transfer
+            </li>
+            <li>
+              Architecture optimized for speed and power
+            </li>
+          </ul>
+          
+
+          <ul>
+            <h3>MEMORY</h3>
+            <li>
+              Flash 136/256 KBPS
+            </li>
+            <li>
+              RAM 6 Kbyte
+            </li>
+            <li>
+              Selectable Code and Data Banking
+            </li>
+            <li>
+              Support OTP master key insertion
+            </li>
+          </ul>
+
+          <ul>
+            <h3>POWER MANAGEMENT</h3>
+            <li>
+              IDLE Mode (Low current stnadby information)
+            </li>
+            <li>
+              ACTIVE Mode
+            </li>
+            <li>
+              I/O Transmission with CPU in idle mode
+            </li>
+          </ul>
+          
+          <ul>
+            <h3>APPLICATION</h3>
+            <li>
+              Prepaid card
+            </li>
+            <li>
+              Secured ID Card
+            </li>
+            <li>
+              Ticketing
+            </li>
+            <li>
+              Healthcard
+            </li>
+            <li>
+              Access control
+            </li>
+            <li>
+              Banking Card
+            </li>
+            <li>
+              Multifunction card.etc
+            </li>
           </ul>
         </p>
       </div>
@@ -126,32 +205,34 @@
   </div>
 </div>
 
-<div class="product product-dark product-text-light" style="background:#1a1a1a url('./img/products/smart-payment.jpg') left center no-repeat;background-size:50% 100%;">
+<div class="product product-dark product-text-light" style="background:#1a1a1a url('./img/products/smart-payment.jpeg') left center no-repeat;background-size: cover">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-md-offset-7">
         <h2>Smart Payment</h2>
         <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus amet, architecto commodi dolore nobis aut quibusdam optio quod, fuga unde, esse, excepturi quo maiores laudantium dolorem atque libero deleniti! Sint!
+          Electronic money (e-money) system stored or embeded on smart card, used by student for daily use, using merchant machine in canteen or mini market.
 
           <ul>
-            <h3>Interface</h3>
-            <li>Support contact interface based ISO 7816 Class A and Class B.</li>
-            <li>Support contactless interface based on ISO/IEC 14443 Type A.</li>
-            <li>NFC Forum Type 4 Compliant Tag IC.</li>
-            <li>Features and Security.</li>
-          </ul>
-          <ul>
-            <h3>Features And Security</h3>
-              <li>True Random Generator.</li>
-              <li>Data integrity using CRC-16 based on ISO 14443 type A standard.</li>
-              <li>DES encryption based on FIPS 46-3 specification.</li>
-              <li>3DES implementation through software implementation (library provided).</li>
-              <li>Symmetric encryption based on AES-128 crypto algorithm.</li>
-              <li>Secured bus and memory management.</li>
-              <li>On-chip voltage regulator.</li>
-              <li>Contact/contactless transmission of data and power supply through power switching module.</li>
-              <li>Compatible with ISO/IEC 7816 command set.</li>
+            <h3>FEATURES</h3>
+            <li>
+              Check balance e-money 
+            </li>
+            <li>
+              Top Up e-money
+            </li>
+            <li>
+              Touch and Barcode Mode
+            </li>
+            <li>
+              Integrated with SAM
+            </li>
+            <li>
+              Change PIN
+            </li>
+            <li>
+              Database System
+            </li>
           </ul>
         </p>
       </div>
@@ -159,7 +240,17 @@
     </div>
   </div>
 </div>
-
+<div class="product-images">
+  <div class="col-sm-4 nopadding">
+    <img src='./img/products/product-demo-1.png' alt=" Product demo 1">
+  </div>
+  <div class="col-sm-4 nopadding">
+    <img src='./img/products/product-demo-2.png' alt=" Product demo 2">
+  </div>
+  <div class="col-sm-4 nopadding">
+    <img src='./img/products/product-demo-2.png' alt=" Product demo 2">
+  </div>
+</div>
 <div class="product product-text-light" style="background:#000 url('./img/products/smartcard-emulator.jpg') right center no-repeat">
   <div class="container">
     <div class="row">
