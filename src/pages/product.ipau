@@ -39,10 +39,10 @@
   </div>
 </div>
 
-<div class="product product-light product-text-light" style="background: url('./img/products/veriu-os.jpg') left center">
+<div class="product product-light product-text-light" style="background:#bfbfbf url('./img/products/veriu-os.jpeg') left center no-repeat;background-size: contain;">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-6 product-text-bottom">
+      <div class="col-lg-6 col-lg-offset-6">
         <h2>VeriU (Operating System)</h2>
         <p class="text-justify">
           SCard XCT136 is a member of SCard family device from Xirka Silicon Technology which is designed specifically for contact interface card. SCard is CPU based card. It is ideal for cost sensitive market that requires low cost solution. The chip enables machines to connect to cellular networks using GSM Phase 2 standard. The chip has on-chip crypto accelerator that ensures high security while maintaining processor performance. The CPU also cooperates with secured memory management and secured bus in order to increase data security. Internal Power management ensures low power consumptions that increase devices operation times. The flexibility of hardware/software development tools and optimized architecture for speed and power ensure to meet customer requirements.
@@ -251,7 +251,7 @@
     <img src='./img/products/product-demo-2.png' alt=" Product demo 2">
   </div>
 </div>
-<div class="product product-text-light" style="background:#000 url('./img/products/smartcard-emulator.jpg') right center no-repeat">
+<div class="product product-text-light" style="background:#bfbfbf url('./img/products/smartcard-emulator.jpg') right center no-repeat;background-size: contain;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 product-text-bottom">
